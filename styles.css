@@ -5,4 +5,80 @@
 }
 
 body {
+  min-height: 100%;
+  background: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+@media (min-width: 1280px) {
+  .cardContainer {
+    background: hsl(0, 0%, 100%);
+    margin: 90px auto;
+    width: 30vw;
+    padding-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .qrCodeImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .cardContainer,
+  .qrCodeImg {
+    border-radius: 20px;
+  }
+  .cardContent {
+    text-align: center;
+    padding: 20px 20px 20px;
+  }
+  .cardContent {
+    text-align: center;
+    padding: 20px 20px 20px;
+  }
+  .cardTitle {
+    color: #333333;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .cardDesc {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .cardContainer {
+    background: hsl(0, 0%, 100%);
+    margin: 90px auto;
+    width: 90vw;
+    padding-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .qrCodeImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .cardContainer,
+  .qrCodeImg {
+    border-radius: 20px;
+  }
+  .cardContent {
+    text-align: center;
+    padding: 20px 20px 20px;
+  }
+  .cardTitle {
+    color: #333333;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .cardDesc {
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(220, 15%, 55%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
